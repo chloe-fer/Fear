@@ -13,12 +13,6 @@
 		17316D3924CDBD80006B25C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17316D3824CDBD80006B25C0 /* Assets.xcassets */; };
 		17316D3C24CDBD80006B25C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17316D3B24CDBD80006B25C0 /* Preview Assets.xcassets */; };
 		17316D3F24CDBD80006B25C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17316D3D24CDBD80006B25C0 /* LaunchScreen.storyboard */; };
-		17316D4724CDBF04006B25C0 /* FirstFearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17316D4624CDBF04006B25C0 /* FirstFearView.swift */; };
-		17316D4924CDC0C4006B25C0 /* SecondFearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17316D4824CDC0C4006B25C0 /* SecondFearView.swift */; };
-		17316D4B24CDC26C006B25C0 /* ThirdFearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17316D4A24CDC26B006B25C0 /* ThirdFearView.swift */; };
-		17316D4D24CDC277006B25C0 /* FourthFearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17316D4C24CDC277006B25C0 /* FourthFearView.swift */; };
-		17316D4F24CDC28D006B25C0 /* FifthFearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17316D4E24CDC28D006B25C0 /* FifthFearView.swift */; };
-		17316D5124CDD8C1006B25C0 /* FinalFearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17316D5024CDD8C1006B25C0 /* FinalFearView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +24,6 @@
 		17316D3B24CDBD80006B25C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		17316D3E24CDBD80006B25C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17316D4024CDBD80006B25C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17316D4624CDBF04006B25C0 /* FirstFearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstFearView.swift; sourceTree = "<group>"; };
-		17316D4824CDC0C4006B25C0 /* SecondFearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFearView.swift; sourceTree = "<group>"; };
-		17316D4A24CDC26B006B25C0 /* ThirdFearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdFearView.swift; sourceTree = "<group>"; };
-		17316D4C24CDC277006B25C0 /* FourthFearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthFearView.swift; sourceTree = "<group>"; };
-		17316D4E24CDC28D006B25C0 /* FifthFearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthFearView.swift; sourceTree = "<group>"; };
-		17316D5024CDD8C1006B25C0 /* FinalFearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalFearView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +59,6 @@
 				17316D3224CDBD7C006B25C0 /* AppDelegate.swift */,
 				17316D3424CDBD7C006B25C0 /* SceneDelegate.swift */,
 				17316D3624CDBD7C006B25C0 /* ContentView.swift */,
-				17316D4624CDBF04006B25C0 /* FirstFearView.swift */,
-				17316D4824CDC0C4006B25C0 /* SecondFearView.swift */,
-				17316D4A24CDC26B006B25C0 /* ThirdFearView.swift */,
-				17316D4C24CDC277006B25C0 /* FourthFearView.swift */,
-				17316D4E24CDC28D006B25C0 /* FifthFearView.swift */,
-				17316D5024CDD8C1006B25C0 /* FinalFearView.swift */,
 				17316D3824CDBD80006B25C0 /* Assets.xcassets */,
 				17316D3D24CDBD80006B25C0 /* LaunchScreen.storyboard */,
 				17316D4024CDBD80006B25C0 /* Info.plist */,
@@ -164,15 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17316D4F24CDC28D006B25C0 /* FifthFearView.swift in Sources */,
-				17316D4B24CDC26C006B25C0 /* ThirdFearView.swift in Sources */,
-				17316D4924CDC0C4006B25C0 /* SecondFearView.swift in Sources */,
 				17316D3324CDBD7C006B25C0 /* AppDelegate.swift in Sources */,
-				17316D5124CDD8C1006B25C0 /* FinalFearView.swift in Sources */,
-				17316D4D24CDC277006B25C0 /* FourthFearView.swift in Sources */,
 				17316D3524CDBD7C006B25C0 /* SceneDelegate.swift in Sources */,
 				17316D3724CDBD7C006B25C0 /* ContentView.swift in Sources */,
-				17316D4724CDBF04006B25C0 /* FirstFearView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -32,16 +32,17 @@ struct ContentView: View {
                     .foregroundColor(.white)
             
                 if truthSplashPage {
+                    
                     VStack {
                         Button(action: {
                             self.truthSplashPage.toggle()
                         }) {
-                                Text("Five Truths About Fear")
-                                    .foregroundColor(.white)
-                                    .font(.title)
+                            Text("Five Truths About Fear")
+                                .foregroundColor(.white)
+                                .font(.title)
                         }
-                        
                     }
+                    
                 } else {
                 
                     VStack {
