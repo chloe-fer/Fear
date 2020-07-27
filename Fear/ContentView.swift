@@ -9,22 +9,72 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var truthNumber = [ "First", "Second", "Third", "Fourth", "Fifth"]
+    var backgroundColor = [Color.red, Color.blue, Color.purple, Color.green, Color.orange, Color.gray]
+    @State var count = 0
+    var truths = [
+           "The fear will never go away as long as I continue to grow.",
+           "The only way to get rid of the fear of doing something is to go out and do it.",
+           "The only way to feel better about myself is to do hard things.",
+           "I am going to experience fear whenever I'm in unfamilar territory. No one is immune.",
+           "Pushing through fear is less frightening than living with the underlying fear of feeling hopeless."
+           ]
+           
+    @State private var truthSplashPage = true
+    
     var body: some View {
-        NavigationView {
+        
+       
             ZStack {
-                Color.red
-                NavigationLink(destination: FirstFearView()) {
-                    Text("Five Truths about Fear")
-                        .font(.title)
-                        .foregroundColor(.white)
+                backgroundColor[count]
+                    .font(.title)
+                    .foregroundColor(.white)
+            
+                if truthSplashPage {
+                    VStack {
+                        Button(action: {
+                            self.truthSplashPage.toggle()
+                        }) {
+                                Text("Five Truths About Fear")
+                                    .foregroundColor(.white)
+                                    .font(.title)
+                        }
+                        
+                    }
+                } else {
+                
+                    VStack {
+                        Text("\(truthNumber[count]) Truth About Fear")
+                            .font(.title)
+                            .padding()
+                        Text("\(truths[count])")
+                           // .fixedSize(horizontal: false, vertical: true)
+                            .frame(width: 300)
+                            .padding()
+                        Button(action: {
+                            self.count += 1
+                            if self.count == 5 {
+                                self.truthSplashPage.toggle()
+                                self.count = 0
+                            }
+                        }) {
+                            if count == 4 {
+                                Image(systemName: "house")
+                                    .font(.system(size: 25))
+                            } else {
+                                Text("Next Truth")
+                                .padding()
+                            }
+                            
+                        }
+                    }
+                    .foregroundColor(.white)
                 }
             }
-            .navigationBarTitle("Fear", displayMode: .inline)
             .edgesIgnoringSafeArea(.all)
 
         }
-    
-    }
 }
 
 struct ContentView_Previews: PreviewProvider {
